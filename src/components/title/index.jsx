@@ -1,6 +1,5 @@
 import React from 'react';
-import { Row, Col, Icon } from 'antd';
-import {UserOutlined} from '@ant-design/icons';
+import { Row, Col } from 'antd';
 import './index.css';
 
 export function TitleMoment({ dateCurrent, nameTutor, description, icon }) {

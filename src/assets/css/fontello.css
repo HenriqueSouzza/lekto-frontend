@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?83563005');
+  src: url('../font/fontello.eot?83563005#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?83563005') format('woff2'),
+       url('../font/fontello.woff?83563005') format('woff'),
+       url('../font/fontello.ttf?83563005') format('truetype'),
+       url('../font/fontello.svg?83563005#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?83563005#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-cenarios---corpo:before { content: '\e800'; } /* '' */
+.icon-cenarios---expressoes-artisticas:before { content: '\e801'; } /* '' */
+.icon-cenarios---mente:before { content: '\e802'; } /* '' */
+.icon-cenarios---natureza:before { content: '\e803'; } /* '' */
+.icon-cenarios---nutricao:before { content: '\e804'; } /* '' */
+.icon-cenarios---tecnologia:before { content: '\e805'; } /* '' */
+.icon-ferramentas----cantar:before { content: '\e806'; } /* '' */
+.icon-ferramentas----conversar:before { content: '\e807'; } /* '' */
+.icon-ferramentas----destacar:before { content: '\e808'; } /* '' */
+.icon-ferramentas----observar:before { content: '\e809'; } /* '' */
+.icon-ferramentas----pintar:before { content: '\e80a'; } /* '' */
+.icon-ferramentas----registrar:before { content: '\e80b'; } /* '' */
+.icon-habilidades---autoconhecimento:before { content: '\e80c'; } /* '' */
+.icon-habilidades---autonomia:before { content: '\e80d'; } /* '' */
+.icon-habilidades---comunicacao:before { content: '\e80e'; } /* '' */
+.icon-habilidades---empatia:before { content: '\e80f'; } /* '' */
+.icon-habilidades---etica:before { content: '\e810'; } /* '' */
+.icon-habilidades---flexibilidade:before { content: '\e811'; } /* '' */
+.icon-habilidades---inovacao:before { content: '\e812'; } /* '' */
+.icon-habilidades---inteligencia-digital:before { content: '\e813'; } /* '' */
+.icon-habilidades---resiliencia:before { content: '\e814'; } /* '' */
+.icon-infra---agua:before { content: '\e815'; } /* '' */
+.icon-infra---bancada:before { content: '\e816'; } /* '' */
+.icon-infra---cabo:before { content: '\e817'; } /* '' */
+.icon-infra---fita:before { content: '\e818'; } /* '' */
+.icon-infra---notebook:before { content: '\e819'; } /* '' */
+.icon-infra---tv:before { content: '\e81a'; } /* '' */
+.icon-materiais---0:before { content: '\e81b'; } /* '' */
+.icon-materiais---1:before { content: '\e81c'; } /* '' */
+.icon-materiais---2:before { content: '\e81d'; } /* '' */
+.icon-materiais---3:before { content: '\e81e'; } /* '' */
+.icon-materiais---4:before { content: '\e81f'; } /* '' */
+.icon-materiais---5:before { content: '\e820'; } /* '' */
+.icon-materiais---6:before { content: '\e821'; } /* '' */
+.icon-materiais---7:before { content: '\e822'; } /* '' */
+.icon-materiais---8:before { content: '\e823'; } /* '' */
+.icon-materiais---9:before { content: '\e824'; } /* '' */
+.icon-materiais---a:before { content: '\e825'; } /* '' */
+.icon-materiais---b:before { content: '\e826'; } /* '' */
+.icon-materiais---c:before { content: '\e827'; } /* '' */
+.icon-materiais---caneta:before { content: '\e828'; } /* '' */
+.icon-materiais---d:before { content: '\e829'; } /* '' */
+.icon-materiais---e:before { content: '\e82a'; } /* '' */
+.icon-materiais---f:before { content: '\e82b'; } /* '' */
+.icon-materiais---g:before { content: '\e82c'; } /* '' */
+.icon-materiais---h:before { content: '\e82d'; } /* '' */
+.icon-materiais---i:before { content: '\e82e'; } /* '' */
+.icon-materiais---j:before { content: '\e82f'; } /* '' */
+.icon-materiais---k:before { content: '\e830'; } /* '' */
+.icon-materiais---l:before { content: '\e831'; } /* '' */
+.icon-materiais---lápis:before { content: '\e832'; } /* '' */
+.icon-materiais---m:before { content: '\e833'; } /* '' */
+.icon-materiais---massa-papel-marche:before { content: '\e834'; } /* '' */
+.icon-materiais---n:before { content: '\e835'; } /* '' */
+.icon-materiais---o:before { content: '\e836'; } /* '' */
+.icon-materiais---p:before { content: '\e837'; } /* '' */
+.icon-materiais---papel:before { content: '\e838'; } /* '' */
+.icon-materiais---q:before { content: '\e839'; } /* '' */
+.icon-materiais---r:before { content: '\e83a'; } /* '' */
+.icon-materiais---s:before { content: '\e83b'; } /* '' */
+.icon-materiais---sucata:before { content: '\e83c'; } /* '' */
+.icon-materiais---t:before { content: '\e83d'; } /* '' */
+.icon-materiais---tinta:before { content: '\e83e'; } /* '' */
+.icon-materiais---u:before { content: '\e83f'; } /* '' */
+.icon-materiais---v:before { content: '\e840'; } /* '' */
+.icon-materiais---w:before { content: '\e841'; } /* '' */
+.icon-materiais---x:before { content: '\e842'; } /* '' */
+.icon-materiais---y:before { content: '\e843'; } /* '' */
+.icon-materiais---z:before { content: '\e844'; } /* '' */
+.icon-menu---agenda:before { content: '\e845'; } /* '' */
+.icon-menu---aprendizes:before { content: '\e846'; } /* '' */
+.icon-menu---grupos:before { content: '\e847'; } /* '' */
+.icon-menu---home:before { content: '\e848'; } /* '' */
+.icon-menu---notifications:before { content: '\e849'; } /* '' */
+.icon-menu---settings:before { content: '\e84a'; } /* '' */
+.icon-system---alerta:before { content: '\e84b'; } /* '' */
+.icon-system---arrow-down:before { content: '\e84c'; } /* '' */
+.icon-system---arrow-left:before { content: '\e84d'; } /* '' */
+.icon-system---arrow-right:before { content: '\e84e'; } /* '' */
+.icon-system---arrow-up:before { content: '\e84f'; } /* '' */
+.icon-system---buscar:before { content: '\e850'; } /* '' */
+.icon-system---camera:before { content: '\e851'; } /* '' */
+.icon-system---caracteristicas:before { content: '\e852'; } /* '' */
+.icon-system---clock:before { content: '\e853'; } /* '' */
+.icon-system---close:before { content: '\e854'; } /* '' */
+.icon-system---dados-pessoais:before { content: '\e855'; } /* '' */
+.icon-system---editar-filled:before { content: '\e856'; } /* '' */
+.icon-system---editar:before { content: '\e857'; } /* '' */
+.icon-system---envelope:before { content: '\e858'; } /* '' */
+.icon-system---filtrar:before { content: '\e859'; } /* '' */
+.icon-system---finalizado:before { content: '\e85a'; } /* '' */
+.icon-system---histórico:before { content: '\e85b'; } /* '' */
+.icon-system---imagem:before { content: '\e85c'; } /* '' */
+.icon-system---iniciar:before { content: '\e85d'; } /* '' */
+.icon-system---janela:before { content: '\e85e'; } /* '' */
+.icon-system---materiais:before { content: '\e85f'; } /* '' */
+.icon-system---microfone:before { content: '\e860'; } /* '' */
+.icon-system---micronfone-filled:before { content: '\e861'; } /* '' */
+.icon-system---ordenar:before { content: '\e862'; } /* '' */
+.icon-system---perfil-do-aprendiz:before { content: '\e863'; } /* '' */
+.icon-system---play:before { content: '\e864'; } /* '' */
+.icon-system---saude:before { content: '\e865'; } /* '' */
+.icon-system---star:before { content: '\e866'; } /* '' */
+.icon-system---status:before { content: '\e867'; } /* '' */
+.icon-system---telefone-filled:before { content: '\e868'; } /* '' */
+.icon-system---telefone:before { content: '\e869'; } /* '' */
+.icon-system---texto:before { content: '\e86a'; } /* '' */
+.icon-system---trocar:before { content: '\e86b'; } /* '' */
+.icon-system--excluir:before { content: '\e86c'; } /* '' */

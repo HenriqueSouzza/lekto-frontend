@@ -21,8 +21,8 @@
 }
 
 .name-tutor{
-    font-family: quiroh-bold;
     font-size: 28px;
+    font-weight: 700;
     color: #333333; 
 }
 
@@ -38,8 +38,8 @@
 }
 
 .course{
-    font-family: quiroh-bold;
     font-size: 28px;
+    font-weight: 700;
     color: #333333;
     line-height: 34px;
 }

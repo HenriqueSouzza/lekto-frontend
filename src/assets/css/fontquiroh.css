@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'quiroh';
+    src: url('../font/Quiroh-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quiroh-bold';
+    src: url('../font/Quiroh-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quiroh-heavy';
+    src: url('../font/Quiroh-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quiroh-light';
+    src: url('../font/Quiroh-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quiroh-medium';
+    src: url('../font/Quiroh-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quiroh-semibold';
+    src: url('../font/Quiroh-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quiroh-thin';
+    src: url('../font/Quiroh-Thin.ttf') format('truetype');
+}

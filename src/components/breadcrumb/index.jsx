@@ -4,7 +4,7 @@ import './index.css'
 export default function BreadcrumbCustom({path, icon}){
     return(
         <div className="breadcrumb-custom">
-            {icon} {path}
+            <i className={icon}></i> {path}
         </div>
     )
 }

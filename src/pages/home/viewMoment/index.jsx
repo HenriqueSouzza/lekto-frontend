@@ -3,7 +3,6 @@ import { Row, Col, List, Avatar, Card, Button, Tooltip } from 'antd';
 import { UserOutlined, InfoCircleOutlined, CheckCircleFilled } from '@ant-design/icons';
 import './index.css';
 import { Link } from 'react-router-dom';
-import BreadcrumbCustom from '../../../components/breadcrumb-custom';
 
 export default function Index(props) {
 

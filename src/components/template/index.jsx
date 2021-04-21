@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { Layout, Menu } from 'antd';
-import { UserOutlined, CalendarOutlined, SettingOutlined } from '@ant-design/icons';
 import Router from '../../pages/router';
 import 'antd/dist/antd.less';
 import './index.css';
 import logo from '../../assets/images/logo_purple.png';
 import { Link } from 'react-router-dom';
+
+import IconCustom from '../../components/icon/index';
 
 const { Content } = Layout;
 
@@ -15,10 +16,10 @@ export default function Template(props) {
   const [menuSelected, setMenuSelected] = useState('0')
 
   const menuList = [
-    { icon: <UserOutlined />, name: 'Início', link: '/home' },
-    { icon: <UserOutlined />, name: 'Aprendizes', link: '/apprentices' },
-    { icon: <CalendarOutlined />, name: 'Agenda', link: '/schedule' },
-    { icon: <SettingOutlined />, name: 'Configuração', link: '/settings' },
+    { icon: <IconCustom icon="icon-menu---home"/>, name: 'Início', link: '/home' },
+    { icon: <IconCustom icon="icon-menu---aprendizes"/>, name: 'Aprendizes', link: '/apprentices' },
+    { icon: <IconCustom icon="icon-menu---agenda"/>, name: 'Agenda', link: '/schedule' },
+    { icon: <IconCustom icon="icon-menu---settings"/>, name: 'Configuração', link: '/settings' },
   ]
 
   const handleClick = e => {
