@@ -1,0 +1,42 @@
+.body-auth {
+    height: 100vh;
+    background: #F26C52;
+}
+
+.login-image-boy{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.login-image-circle{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.login-content-form{
+    position: absolute;
+    top: 150px;
+    min-width: 350px;
+    z-index: 2;
+}
+
+.form-item-custom{
+    margin-bottom: 12px;
+}
+
+.text-forgot-my-password{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.logo-login{
+    padding: 10px 0;
+}
+
+.ant-input, .ant-input-password{
+    border-radius: 15px;
+    padding: 8px 11px;
+}
