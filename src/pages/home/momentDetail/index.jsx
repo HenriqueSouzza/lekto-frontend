@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col, Button } from 'antd';
 import { TitleActivity } from '../../../components/title/index';
 import BreadCrumbCustom from '../../../components/breadcrumb/index';
-import { InfoCircleOutlined, LeftOutlined } from '@ant-design/icons';
+import { InfoCircleOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import './index.css';
 

@@ -3,7 +3,7 @@ import Template from './components/template/index';
 import Auth from './pages/auth/index';
 
 export default function App(props) {
-  let login = 1;
+  let login = 0;
 
   if (login) {
     return <Template {...props}/>

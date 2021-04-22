@@ -1,10 +1,12 @@
 import React from 'react';
-import { Form, Input, Button, Image, Typography, Row, Col } from 'antd';
+import { Form, Input, Image, Typography, Row, Col } from 'antd';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/logo_white.png';
 import ImageBoy from '../../assets/images/image_boy.png';
 import ImageCircle from '../../assets/images/image_circle.png';
 import './index.css';
+
+import Button from '../../components/button/index';
 
 const { Text } = Typography;
 
@@ -71,9 +73,12 @@ export default function Auth() {
               </Form.Item>
               <Form.Item 
                 className="form-item-custom">
-                <Button type="primary" htmlType="submit" style={{ width: '100%' }} size="large">
-                  ENTRAR
-              </Button>
+                <Button 
+                  htmlType="submit"
+                  className={`btn-yellow btn-login`} 
+                  size="large" 
+                  name="ENTRAR"
+                />
               </Form.Item>
               <Form.Item
                 className="form-item-custom">
