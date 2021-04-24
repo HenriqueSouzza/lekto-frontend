@@ -5,6 +5,7 @@ import 'antd/dist/antd.less';
 import './index.css';
 import logo from '../../assets/images/logo_purple.png';
 import { Link } from 'react-router-dom';
+import { useAuth0 } from "@auth0/auth0-react";
 
 import IconCustom from '../../components/icon/index';
 
@@ -12,6 +13,8 @@ const { Content } = Layout;
 
 
 export default function Template(props) {
+
+  const { logout } = useAuth0();
 
   const [menuSelected, setMenuSelected] = useState('0')
 
@@ -39,6 +42,11 @@ export default function Template(props) {
             </Link>
           </Menu.Item>
         )}
+        <Menu.Item icon={``}>
+          <Link to={`#`} onClick={() => logout()} className="menu-link">
+            {`Sair`}
+          </Link>
+        </Menu.Item>
       </Menu>
       <Content>
         <div className="site-layout-content">

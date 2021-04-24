@@ -1,3 +1,81 @@
 .button-title-moment-detail{
     text-align: right;
 }
+
+.card-activity-moment-detail{
+    margin-top: 20px;
+}
+
+.description-activity-tutor-moment-detail{
+    color: #9B9B9B;
+    font-size: 15px;
+}
+
+.students-card-moment-detail{
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 11px;
+    flex-wrap: wrap;
+}
+
+.students-card-moment-detail div p{
+    margin: 0 15px 0 0;
+}
+
+.students-card-moment-detail div p{
+    color: #7C7C7C;
+    margin-top: 5px;
+}
+
+.title-student-suggested-moment-detail{
+    font-size: 22px;
+    color: #7C7C7C;
+}
+
+.description-activity-moment-detail{
+    margin-top: 20px;
+}
+
+.description-activity-moment-detail > a > .name-link-activity{
+    font-size: 28px;
+    font-family: quiroh-bold;
+    color: #333333;
+}
+
+.description-activity-moment-detail > a >.name-link-activity > i{
+    background-color: #DDDDDD;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 5px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.description-activity-moment-detail > .descrition-activity {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #9B9B9B;
+}
+
+.description-activity-moment-detail > .skills-assessed-activity {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #9B9B9B;
+}
+
+.modal-student-suggested-moment-detail{
+    border-radius: 15px !important;
+}
+
+.modal-student-suggested-moment-detail > .ant-modal-content > .ant-modal-body{
+    padding: 19px;
+}
+
+@media (min-width: 780px) {
+
+    .modal-student-suggested-moment-detail{
+        width: 80% !important;
+    }
+
+}

@@ -7,6 +7,10 @@
   color: #9B9B9B;
 }
 
+.ant-menu-item i {
+  margin-right: 5px;
+}
+
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected{
   color: #8C22BC;
   border-bottom: 2px solid #8C22BC;  
@@ -32,20 +36,24 @@
   height: 35px;
 }
 
-.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu{
-  margin-top: 0;
-}
-
-.ant-breadcrumb > span:last-child{
-  color: #1890ff;
-}
-
 .menu-link:hover{
   color: #8C22BC !important;
 }
 
 .ant-menu-horizontal > .ant-menu-item-selected a{
   color: #8C22BC !important;
+}
+
+.ant-card{
+  border-radius: 15px !important;
+}
+
+.ant-card-body{
+  padding: 14px 16px !important;
+}
+
+.ant-btn{
+  border-radius: 10px !important;
 }
 
 footer{

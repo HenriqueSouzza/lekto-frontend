@@ -1,20 +1,27 @@
 import React from 'react';
 import { Form, Input, Image, Typography, Row, Col } from 'antd';
 import { Link } from 'react-router-dom';
+import { useAuth0 } from '@auth0/auth0-react';
 import Logo from '../../assets/images/logo_white.png';
 import ImageBoy from '../../assets/images/image_boy.png';
 import ImageCircle from '../../assets/images/image_circle.png';
 import './index.css';
-
 import Button from '../../components/button/index';
 
 const { Text } = Typography;
 
-export default function Auth() {
+export function OAuth0() {
+  const { loginWithRedirect } = useAuth0();
+
+  return loginWithRedirect()
+}
+
+
+export function Auth() {
 
   const onFinish = (values) => {
-    console.log('Success:', values);
-  };
+    console.log(values)
+  }
 
   const onFinishFailed = (errorInfo) => {
     console.log('Failed:', errorInfo);
@@ -71,12 +78,12 @@ export default function Auth() {
                 rules={[{ required: true, message: 'Please input your password!' }]}>
                 <Input.Password />
               </Form.Item>
-              <Form.Item 
+              <Form.Item
                 className="form-item-custom">
-                <Button 
+                <Button
                   htmlType="submit"
-                  className={`btn-yellow btn-login`} 
-                  size="large" 
+                  className={`btn-yellow btn-login`}
+                  size="large"
                   name="ENTRAR"
                 />
               </Form.Item>

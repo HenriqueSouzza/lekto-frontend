@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Template from './components/template/index';
-import Auth from './pages/auth/index';
+import { useAuth0 } from "@auth0/auth0-react";
+import {generateTokenAuth} from './pages/auth/actions';
 
 export default function App(props) {
-  let login = 0;
 
-  if (login) {
-    return <Template {...props}/>
-  } else {
-    return <Auth />
-  }
+  const { isAuthenticated, getAccessTokenSilently } = useAuth0();
+
+  useEffect(() => {
+    generateTokenAuth(getAccessTokenSilently)
+  }, []);
+
+  return isAuthenticated && <Template {...props}/>
 
 }
