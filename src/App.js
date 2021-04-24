@@ -1,16 +1,22 @@
-import React, {useEffect} from 'react';
+import React from 'react';
+import { connect } from 'react-redux';
 import Template from './components/template/index';
 import { useAuth0 } from "@auth0/auth0-react";
-import {generateTokenAuth} from './pages/auth/actions';
+import { generateTokenAuth } from './pages/auth/actions';
 
-export default function App(props) {
+function App(props) {
 
   const { isAuthenticated, getAccessTokenSilently } = useAuth0();
 
-  useEffect(() => {
-    generateTokenAuth(getAccessTokenSilently)
-  }, []);
 
-  return isAuthenticated && <Template {...props}/>
+  if (!isAuthenticated) {
+    props.generateTokenAuth(getAccessTokenSilently)
+  }
+
+  return isAuthenticated && <Template {...props} />
 
 }
+
+const mapStateToProps = (state) => ({auth: state.Auth});
+
+export default connect(mapStateToProps, {generateTokenAuth})(App);

@@ -1,10 +1,12 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { Row, Col, List, Avatar, Card, Button, Tooltip } from 'antd';
 import { UserOutlined, InfoCircleOutlined, CheckCircleFilled } from '@ant-design/icons';
 import './index.css';
 import { Link } from 'react-router-dom';
+import { getMomentHome } from './actions';
 
-export default function Index(props) {
+function Index(props) {
 
     const titleTutor = (dateCurrent, nameTutor, description) => {
         return (
@@ -15,6 +17,8 @@ export default function Index(props) {
             </>
         )
     }
+
+    console.log()
 
     const dateList = [
         {
@@ -88,3 +92,7 @@ export default function Index(props) {
         </>
     )
 }
+
+const mapStateToProps = (state) => ({home: state.Home});
+
+export default connect(mapStateToProps, { getMomentHome })(Index);

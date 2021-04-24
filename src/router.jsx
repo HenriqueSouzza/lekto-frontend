@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch  } from 'react-router-dom';
 import App from './App';
 import { OAuth0 } from './pages/auth/index';
-import PageNotFound from './pages/pageNotFound';
+import PageNotFound from './pages/page-not-found';
 
 export default function Router() {
     return (

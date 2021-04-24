@@ -79,3 +79,57 @@
     }
 
 }
+
+.skillAssessed-card{
+    width: 300px;
+    background: #FFC9C2;
+    padding: 5px;
+}
+
+.skillAssessed-card > span{
+    font-family: quiroh-bold;
+    color: #BBBBBB;
+}
+
+.skillAssessed-card > .title-description{
+    color:#333333;
+    font-family: quiroh-bold;
+}
+
+.name-button-custom{
+    font-family: quiroh-bold;
+}
+
+.skillAssessed-card > .text-description{
+    background: #FF9E93;
+    padding: 5px 10px;
+}
+
+.btn-iniciar-moment-detail{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.timer-and-end-moment-detail{
+    margin-top: 10px;
+    text-align: right;
+}
+
+.timer-and-end-moment-detail > .common{
+    float: right;
+    margin-left: 20px;
+}
+
+.timer-and-end-moment-detail > .btn-timer-green{
+    font-family: quiroh-bold;
+    border: 2px solid #51E699;
+    color: #51E699;
+    background: #fff;
+    padding: 4px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.btn-green-gradient > span{
+    font-family: quiroh-medium;
+}

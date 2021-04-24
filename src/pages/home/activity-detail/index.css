@@ -1,0 +1,11 @@
+.timer-and-end-moment-detail > .common > button{
+    height: 40px !important;
+}
+
+.timer-and-end-moment-detail > .btn-malterials-activity-detail{
+    border-radius: 30px !important;
+}
+
+.timer-and-end-moment-detail > .btn-timer-green{
+    padding: 9px !important;
+}
